@@ -319,3 +319,76 @@ h2 i {
   width: 100%;
   opacity: 100%;
 }
+.signupForm {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #5E6164;
+  color: #fee9d7;
+}
+.signupForm form {
+  font-size: 2rem;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  padding: 2%;
+}
+.signupForm form .button {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  background-color: silver;
+  font-size: 1.5rem;
+  height: 7.6vh;
+  align-items: center;
+  color: black;
+  border-radius: 8px;
+  padding: 6%;
+  width: 100%;
+  margin-top: 10%;
+}
+.signupForm form .button:hover {
+  background-color: #fee9d7;
+  color: black;
+}
+#MeetTheTeam {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#MeetTheTeam h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  font-size: 7rem;
+}
+#MeetTheTeam .wholeTeam {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+#MeetTheTeam .wholeTeam h3 {
+  font-size: 4rem;
+}
+#MeetTheTeam .wholeTeam h4 {
+  padding-top: 7%;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#MeetTheTeam .wholeTeam i {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 7% ;
+  font-size: 2rem;
+}
