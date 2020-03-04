@@ -1,0 +1,71 @@
+#MeetTheTeam{
+    .flex(space-evenly, center);
+    flex-wrap: wrap;
+
+    h2{
+        width: 100%;
+        text-align: center;
+        padding-top: 2%;
+        font-size: 7rem;
+        padding-bottom: 2%;
+    }
+
+
+    .wholeTeam{
+        .flex(space-evenly, center);
+        width: 100%;
+        padding-bottom: 5%;
+        //padding-top: 2%;
+
+        @media @mediumbreak{
+            .flex(space-evenly, center);
+            flex-direction: column;
+        }
+
+        img{
+            .flex(space-evenly, center);
+            width: 58%;
+            margin-left: 21%;
+            margin-top: 5%;
+            border: .3px, solid, @orangeish;
+
+            @media @mediumbreak{
+                .flex(space-evenly, center);
+                flex-direction: column;
+            }
+        }
+
+        
+        h3{
+            font-size: 3rem;
+            width: 100%;
+            .flex(space-evenly, center);
+        }
+
+        h4{
+            padding-top: 7%;
+            font-size: 2rem;
+            text-align: center;
+            .flex(space-evenly, center);
+        }
+        i{
+            .flex(space-evenly, center);
+            padding-top: 7% ;
+            font-size: 4.5rem;
+            @media @mediumbreak{
+                .flex(space-evenly, center);
+                flex-direction: column;
+                border-bottom: .5px, dashed, black;
+            }
+            
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+
+
+}
