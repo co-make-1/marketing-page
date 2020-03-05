@@ -576,29 +576,36 @@ h2 i {
   background-color: #5E6164;
   color: #fee9d7;
 }
-.signupForm form {
-  font-size: 2rem;
-  border-top: 1px dashed black;
-  border-bottom: 1px dashed black;
-  padding: 2%;
+.signupForm i {
+  font-size: 8rem;
+  padding-top: 28%;
+  color: #4ab8b8;
 }
-.signupForm form .button {
+.signupForm .headigSU {
+  font-size: 9rem;
+}
+.signupForm .button {
   display: flex;
   justify-content: space-evenly;
-  width: 10%;
-  background-color: silver;
-  font-size: 1.5rem;
-  height: 7.6vh;
+  width: 35%;
+  background-color: #F6F7F8;
   align-items: center;
   color: black;
-  border-radius: 8px;
-  padding: 6%;
-  width: 100%;
-  margin-top: 10%;
+  margin-top: 3%;
+  border-radius: 20px;
+  padding: 2%;
+  font-size: 2rem;
+  box-shadow: 0 8px 16px 0 #00000044, 0 6px 20px 0 #00000044;
 }
-.signupForm form .button:hover {
-  background-color: #fee9d7;
-  color: black;
+.signupForm .button:hover {
+  -webkit-box-shadow: inset 0px 0px 5px #0000008e;
+  -moz-box-shadow: inset 0px 0px 5px #0000008e;
+  box-shadow: inset 0px 0px 5px #0000008e;
+}
+@media (max-width: 500px) {
+  .signupForm .button {
+    font-size: 1.5rem;
+  }
 }
 #MeetTheTeam {
   display: flex;
